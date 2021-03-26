@@ -1,3 +1,5 @@
+import Button from '../../Button'
+
 import './number-input.css'
 
 const NumberInput = ({ onClickHandler, onChangeHandler }) => {
@@ -14,7 +16,7 @@ const NumberInput = ({ onClickHandler, onChangeHandler }) => {
       </select>
       <input type="number" onChange={onChangeHandler} name="y"/>
 
-      <button onClick={onClickHandler}>Hitung</button>
+      <Button onClick={onClickHandler}>Hitung</Button>
     </div>
   )
 }
