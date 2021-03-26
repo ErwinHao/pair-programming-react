@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import NumberInput from './NumberInput';
 import HasilKalkulator from '../HasilKalkulator';
 
+import './calculator-container.css'
+
 export class CalculatorContainer extends Component {
   constructor() {
     super();
@@ -53,7 +55,7 @@ export class CalculatorContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="calculator-container">
         <NumberInput 
           onClickHandler={this.handleKalkulasi} 
           onChangeHandler={this.handleChange}

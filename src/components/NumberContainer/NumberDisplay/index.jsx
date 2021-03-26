@@ -3,7 +3,7 @@
 const NumberDisplay = ({ number }) => {
   return (
     <div>
-      {number}
+      <h2>{number}</h2>
     </div>
   )
 }

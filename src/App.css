@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto'
+}
+
+button {
+  padding: 10px 20px;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+button:focus{
+  outline: none
+}
+
+input {
+  padding:  5px;
+}

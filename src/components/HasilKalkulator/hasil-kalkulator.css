@@ -1,0 +1,9 @@
+.hasil-kalkulator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hasil-hitung {
+  font-size: 40px;
+}

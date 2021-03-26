@@ -1,6 +1,9 @@
+import './number-input.css'
+
 const NumberInput = ({ onClickHandler, onChangeHandler }) => {
   return (
-    <div>
+    <div className="number-input">
+    <h1>Kalkulator Palsu</h1>
       <input type="number" onChange={onChangeHandler} name="x"/>
       <select name="operator" onChange={onChangeHandler} id="">
         <option>Pilih Operator</option>

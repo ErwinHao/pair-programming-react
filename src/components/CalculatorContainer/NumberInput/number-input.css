@@ -1,0 +1,5 @@
+.number-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

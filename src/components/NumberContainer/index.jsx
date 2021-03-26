@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import ButtonList from '../ButtonList';
 import NumberDisplay from './NumberDisplay';
 
+import './number-container.css'
+
 export class NumberContainer extends Component {
   constructor() {
     super();
@@ -30,14 +32,15 @@ export class NumberContainer extends Component {
 
   render() {
     return (
-      <>
+      <div className="number-container">
+      <h1>Main main angka</h1>
         <NumberDisplay number={this.state.number} />
         <ButtonList 
           onIncrementHandler={this.handleIncrement} 
           onDecrementHandler={this.handleDecrement} 
           onResetHandler={this.handleReset} 
         />
-      </>
+      </div>
     )
   }
 }

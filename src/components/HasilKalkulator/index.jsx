@@ -1,7 +1,9 @@
+import './hasil-kalkulator.css'
+
 const HasilKalkulator = ({ hasil }) => {
   return (
-    <div>
-      {hasil}
+    <div className='hasil-kalkulator'>
+      <h2 className="hasil-hitung">{hasil}</h2>
     </div>
   )
 }
