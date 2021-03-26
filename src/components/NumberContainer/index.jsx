@@ -19,6 +19,7 @@ export class NumberContainer extends Component {
   }
 
   handleDecrement = () => {
+    this.state.number > 0 &&
     this.setState({
       number: this.state.number - 1
     })
